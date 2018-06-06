@@ -1,0 +1,82 @@
+Script started on Thu 03 May 2018 03:04:04 PM PDT
+okanwarB@Bcslab1B BFlight-Search-SystemB>B ls
+cities.txt  City.java  cityPath.java  Driver.java  flights.txt	Makefile  sampleruns.txt
+okanwarB@Bcslab1B BFlight-Search-SystemB>B make
+# test -d bin || mkdir bin
+# javac -d bin *.java
+javac *.java
+okanwarB@Bcslab1B BFlight-Search-SystemB>B ls
+cities.txt  City.java	    cityPath.java  Driver.java	Makefile
+City.class  cityPath.class  Driver.class   flights.txt	sampleruns.txt
+okanwarB@Bcslab1B BFlight-Search-SystemB>B java Driver
+Please enter an origin city:
+San Diego
+Please enter a destination city:
+Chicago
+Sorry, there are no flights from this origin city to this destination city
+Please enter an origin city:
+Chicago
+Please enter a destination city:
+San Diego
+The requested route is to fly from Chicago to San Diego.
+Chicago to San Diego $325
+Total cost: $325
+Please enter an origin city:
+Chicago
+Please enter a destination city:
+Los Angeles
+The requested route is to fly from Chicago to Los Angeles.
+Chicago to Los Angeles $230
+Total cost: $230
+Please enter an origin city:
+Chicago
+Please enter a destination city:
+Albuquerque
+The requested route is to fly from Chicago to Albuquerque.
+Chicago to Albuquerque $508
+Total cost: $508
+Please enter an origin city:
+Los Angeles
+Please enter a destination city:
+Chicago
+Sorry, there are no flights from this origin city to this destination city
+Please enter an origin city:
+Albuquerque
+Please enter a destination city:
+San Diego
+The requested route is to fly from Albuquerque to San Diego.
+Albuquerque to Chicago $250
+Chicago to San Diego $325
+Total cost: $575
+Please enter an origin city:
+Albuquerque
+Please enter a destination city:
+Los Angeles
+The requested route is to fly from Albuquerque to Los Angeles.
+Albuquerque to Chicago $250
+Chicago to Los Angeles $230
+Total cost: $480
+Please enter an origin city:
+sdjkfs
+USAir doesn't serve this city. Try again
+Please enter an origin city:
+Chicago
+Please enter a destination city:
+sdkfhsd
+USAir doesn't serve this city. Try again
+Please enter a destination city:
+sdhfojs
+USAir doesn't serve this city. Try again
+Please enter a destination city:
+sdjfv
+USAir doesn't serve this city. Try again
+Please enter a destination city:
+San Diego
+The requested route is to fly from Chicago to San Diego.
+Chicago to San Diego $325
+Total cost: $325
+Please enter an origin city:
+^CokanwarB@Bcslab1B BFlight-Search-SystemB>B exit
+exit
+
+Script done on Thu 03 May 2018 03:07:39 PM PDT
